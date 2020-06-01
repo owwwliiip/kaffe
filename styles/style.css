@@ -1,0 +1,305 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(47, 46, 48);
+  font-family: "Lora", serif;
+  position: fixed;
+}
+
+.nav-logo {
+  float: left;
+  margin-top: 15px;
+}
+
+.nav-logo a {
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+nav {
+  float: right;
+  margin-right: -20px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  padding: 0 20px;
+  line-height: 35px;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav li a:hover {
+  color: rgb(129, 172, 43);
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url("../images/cafe1.jpg");
+  background-size: cover;
+  height: 420px;
+  text-align: center;
+  color: white;
+  padding-top: 70px;
+}
+
+.jumbotron h1 {
+  font-family: "Lora", serif;
+  font-size: 65px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.jumbotron p {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.jumbotron h1,
+.jumbotron p {
+  text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.4);
+}
+
+.btn-menu {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: olivedrab;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 50px;
+}
+
+.btn-menu:hover {
+  background-color: rgb(129, 172, 43);
+}
+
+/* Content */
+.contents {
+  float: left;
+  width: 75%;
+  box-shadow: 1px 0px 1px 0px rgb(129, 172, 43);
+}
+
+/* About */
+.about-title h2 {
+  font-family: "Lora", sans-serif;
+  font-size: 35px;
+  padding-top: 30px;
+}
+
+.about-desc {
+  width: 70%;
+}
+
+.about-desc p {
+  line-height: 30px;
+  padding-bottom: 30px;
+  color: dimgrey;
+}
+
+.about-wrapper,
+.menu-wrapper {
+  border-bottom: 1px solid olivedrab;
+}
+
+/* Menu */
+.menu-title h2 {
+  font-family: "Lora", sans-serif;
+  font-size: 35px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.menu-item-wrapper {
+  display: flex;
+}
+
+.food {
+  margin-left: auto;
+  margin-right: 25px;
+}
+
+.drink {
+  margin-right: auto;
+  margin-left: 25px;
+}
+
+.food img,
+.drink img {
+  width: 425px;
+  margin-top: 20px;
+}
+
+.food h3,
+.drink h3 {
+  font-family: "Lora", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.food hr,
+.drink hr {
+  width: 10%;
+  border: 2px solid olivedrab;
+}
+
+table {
+  width: 85%;
+  margin: 20px auto 40px auto;
+}
+
+table,
+tr,
+td {
+  padding: 15px 15px 7px 15px;
+  border-collapse: collapse;
+  color: dimgrey;
+}
+
+td.price {
+  text-align: right;
+  font-weight: 600;
+  color: black;
+}
+
+/* Visit Us */
+.visit-wrapper {
+  padding-bottom: 100px;
+}
+
+.visit-title h2 {
+  font-family: "Lora", sans-serif;
+  font-size: 35px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.visit-desc {
+  text-align: center;
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid olivedrab;
+}
+
+.visit-desc hr {
+  border: 2px solid olivedrab;
+  width: 30%;
+}
+
+.visit-desc h3 {
+  font-family: "Lora", sans-serif;
+  margin-bottom: 10px;
+}
+
+.location,
+.open {
+  margin: 0 auto;
+}
+
+/* Footer */
+footer {
+  background-color: rgb(47, 46, 48);
+  text-align: center;
+  width: 100%;
+  color: white;
+  height: 45px;
+}
+
+.social-media {
+  margin-top: 15px;
+  float: right;
+}
+
+.copy {
+  float: left;
+}
+
+.social-media a {
+  font-size: 14px;
+  color: white;
+}
+
+.social-media a:hover {
+  color: olivedrab;
+}
+
+.fa-facebook,
+.fa-instagram {
+  margin-right: 10px;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+.fa-heart {
+  color: salmon;
+  font-size: 12px;
+}
+
+/* Owner */
+aside {
+  float: right;
+  width: 25%;
+  text-align: center;
+}
+
+.owner h2 {
+  font-family: "Lora", sans-serif;
+  padding-top: 30px;
+}
+
+.owner img {
+  width: 125px;
+  border-radius: 100px;
+  border: 2px solid olivedrab;
+}
+
+.owner table {
+  width: 70%;
+}
+
+.owner table,
+.owner th,
+.owner td {
+  padding: 5px 0 5px 20px;
+  text-align: left;
+  /* border: 1px solid black; */
+}
+
+.owner a {
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  overflow: auto;
+}
